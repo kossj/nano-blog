@@ -2,6 +2,7 @@
   "name": "astro-nano",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "npm@10.2.3",
   "scripts": {
     "dev": "astro dev",
     "dev:network": "astro dev --host",
@@ -14,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
-    "@astrojs/mdx": "^2.2.0",
+    "@astrojs/mdx": "^4.2.6",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
     "@astrojs/tailwind": "^5.1.0",
@@ -23,7 +24,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
-    "astro": "^4.16.18",
+    "astro": "^5.7.12",
     "clsx": "^2.1.0",
     "eslint": "^8.57.0",
     "eslint-plugin-astro": "^0.32.0",
