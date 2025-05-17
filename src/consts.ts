@@ -1,4 +1,4 @@
-import type { Site, Metadata, Socials } from "@types";
+import type { Site, Metadata, Socials, KeepInTouch } from "@types";
 
 export const SITE: Site = {
   NAME: "Jack Koss",
@@ -28,9 +28,8 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
 };
 
-export const KEEPINTOUCH: Metadata = {
-  TITLE: "Keep In Touch",
-  DESCRIPTION: "Notes to friends",
+export const KEEPINTOUCH: KeepInTouch = {
+  PHONE: "01.713.252.3940"
 };
 
 export const SOCIALS: Socials = [

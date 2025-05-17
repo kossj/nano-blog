@@ -15,3 +15,7 @@ export type Socials = {
   NAME: string;
   HREF: string;
 }[];
+
+export type KeepInTouch = {
+  PHONE: string;
+};
