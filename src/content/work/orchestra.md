@@ -1,5 +1,5 @@
 ---
-company: "CCHS Orchestrea"
+company: "CCHS Orchestra"
 role: "Violinist"
 dateStart: "08/15/2021"
 dateEnd: "05/23/2025"

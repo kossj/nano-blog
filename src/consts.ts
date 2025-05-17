@@ -28,6 +28,11 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
 };
 
+export const KEEPINTOUCH: Metadata = {
+  TITLE: "Keep In Touch",
+  DESCRIPTION: "Notes to friends",
+};
+
 export const SOCIALS: Socials = [
   // { 
   //   NAME: "twitter-x",

@@ -1,0 +1,37 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import BackToPrev from "@components/BackToPrev.astro";
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("keepintouch"))
+    .filter(post => !post.data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"keepintouch">;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<PageLayout title={post.data.name} description={post.data.description}>
+  <Container>
+    <div class="animate">
+      <BackToPrev href="/">
+        Back to home
+      </BackToPrev>
+    </div>
+    <div class="space-y-1 my-10">
+      <div class="animate text-2xl font-semibold text-black dark:text-white">
+        {post.data.name}
+      </div>
+    </div>
+    <article class="animate">
+      <Content />
+    </article>
+  </Container>
+</PageLayout>

@@ -1,0 +1,16 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import { KEEPINTOUCH } from "@consts";
+import Container from "@components/Container.astro";
+---
+<PageLayout title={KEEPINTOUCH.TITLE} description={KEEPINTOUCH.DESCRIPTION}>
+    <Container>
+        <div class="space-y-10">
+          <div class="animate font-semibold text-black dark:text-white">
+            Keep in touch!
+          </div>
+          <article>
+            <p>Hello! if you're here I probably gave you a link -- make sure you entered it right!</p>
+          </article>
+      </Container>
+  </PageLayout>
