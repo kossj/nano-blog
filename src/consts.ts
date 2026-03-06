@@ -29,6 +29,8 @@ export const PROJECTS: Metadata = {
 };
 
 export const KEEPINTOUCH: KeepInTouch = {
+  TITLE: "Keep in Touch!",
+  DESCRIPTION: "Keep in touch",
   PHONE: "01.713.252.3940"
 };
 

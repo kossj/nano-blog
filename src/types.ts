@@ -17,5 +17,7 @@ export type Socials = {
 }[];
 
 export type KeepInTouch = {
+  TITLE: string;
+  DESCRIPTION: string;
   PHONE: string;
 };
